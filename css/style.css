@@ -62,12 +62,15 @@ body{
 
 @media only screen and (min-width:768px) and (max-width:991px){
 
-.mainContainer{
-    width: 44% !important;
-}
+    .mainContainer{
+         width: 44% !important;
+    }
     #div3{
         clear: both !important;
         width: 93% !important;
     }
-   
+    .info {    
+       margin-top: 9% !important;
+       margin-bottom: 2% !important;
+   }
 }
