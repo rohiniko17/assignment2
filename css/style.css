@@ -17,7 +17,7 @@ body{
 }
 
 .mainContainer{
-    margin: 13px;
+    margin: 25px 32px 1px 0px;
     width: 30%;
     float: left;
     padding-left: 10px;
@@ -57,20 +57,24 @@ body{
 @media only screen and (max-width: 767px) {
     .mainContainer{
         width: 97% !important;
+        margin: 25px 0px 1px 0px !important;
     }
+    
 }
 
 @media only screen and (min-width:768px) and (max-width:991px){
 
     .mainContainer{
-         width: 44% !important;
+        width: 44% !important;
     }
-    #div3{
+    #div3{  
         clear: both !important;
-        width: 93% !important;
+        width: 94% !important;
     }
-    .info {    
+
+  .info {    
        margin-top: 9% !important;
        margin-bottom: 2% !important;
+
    }
 }
