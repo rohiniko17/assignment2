@@ -1,0 +1,93 @@
+/* Style for assignment 2 */
+body{
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.menuTitle{
+    width: 100%;
+    font-weight: 800;
+    font-size: 1.4rem;
+    text-align: center;
+    font-family: cursive;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.Container{
+    /* display: table;
+    width: 100%;
+    margin: 0 auto;
+    height: 135px; */
+    /* border: 1px solid;
+    position: absolute; */
+    width: 100%;
+    /* margin-top: 5%; */
+}
+.mainContainer{
+    margin: 13px;
+    width: 30%;
+    float: left;
+    /* height: 135px; */
+    padding-left: 10px;
+    text-align: left;
+    border: 1px solid;
+    position: relative;
+    background-color: #999999;
+}
+
+.innerContainer{
+    /* border: 1px solid green;
+    height: 100%; */
+    margin-left: 2%; 
+}
+
+.divTitle{
+    font-weight: bold;
+    border: 1px solid black;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    padding: 1%;
+    width: 94px;
+    font-family: sans-serif;
+}
+
+#div1 .divTitle{
+    background-color: #D59898;
+}
+#div2 .divTitle {
+    color: white;
+    background-color: #C14543;
+}
+#div3 .divTitle {
+    background-color: #E5D198;
+}
+.info{
+    /* position: absolute; */
+    /* top: 35%; */
+    margin: 9% 0% 5% 0%;
+    width: 95%;
+}
+
+@media only screen and (max-width: 767px) {
+    .mainContainer{
+        width: 87% !important;
+    }
+  }
+
+  @media only screen and (min-width:768px) and (max-width:991px){
+
+    .mainContainer{
+        width: 44% !important;
+    }
+      #div3{
+          clear: both !important;
+          width: 93% !important;
+      }
+      
+  }
